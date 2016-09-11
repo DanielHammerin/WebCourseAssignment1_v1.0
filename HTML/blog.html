@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Blog Page</title>
+
+    <meta property="og:title" content="dh222gh WebProject1"/>
+    <meta property="og:type" content="web page"/>
+    <meta property="og:url" content="http://www.dh222ghwebproject1tranquility.com"/>
+    <meta property="og:image" content="http://www.planwallpaper.com/static/images/518169-backgrounds.jpg"/>
+
     <link rel="stylesheet" type="text/css" href="Assets/CSS/CssMain.css">
     <link rel="stylesheet" type="text/css" href="Assets/CSS/CssNav.css">
 </head>
@@ -26,25 +32,70 @@
 
 <div class="container">
     <div class="column-center">
-
-        <body>Dank af blog and shit</body>
-        <p>
-            <article>
-                Text article fo shizzle.
-                <section>This is section number one of the article.</section>
-
-                <section>This is the second section yao!</section>
-            </article>
-        </p>
-
-        <article>
-            Text article fo shizzle.
-            <section>This is section number one of the article.</section>
-
-            <section>This is the second section yao!</section>
-        </article>
-
+        <main id="articles">
+            <header>Blog</header>
+            <p>
+            <div class="article">
+                <h2>Robot.txt</h2>
+                <article>
+                    <section>
+                        Robots.txt is a text file in hte top level of the heirarchy and
+                        is designed to act as an indicator which pages a "robot" or
+                        search engine robot should disregard. This text file contains keywords
+                        and paths to the forbidden html pages
+                    </section>
+                </article>
+            </div>
+            </p>
+            <div class="article">
+                <h2>Humans.txt</h2>
+                <article>
+                    <section>
+                        Humans.txt is a file that is similar to "robot.txt" and
+                        contains the information about the people behind a page,
+                        when it was last updated, their contact information or
+                        copyright/trademarks regarding usage and information
+                        presented on the site.
+                    </section>
+                </article>
+            </div>
+            <p>
+            <div class="article">
+                <h2>Open Graph</h2>
+                <article>
+                    <section>
+                        Open graph is a protocol used on webpages to
+                        enable them to become graph objects and thus share
+                        functionality as other related objects.
+                        This is achieved by adding basic meta data in the headers
+                        of your web pages that are used to relate to your web page
+                    </section>
+                </article>
+            </div>
+            </p>
+            <div class="article">
+                <h2>Why we separate HTML and CSS</h2>
+                <article>
+                    <section>
+                        The reason for separating HTML and CSS is because it
+                        makes the code and content much easier to read and understand
+                        whereas if both CSS and HTML were all combined into one along
+                        with javascript, it would be very messy and hard to find things.
+                        It also limits code duplication and is because of that a more
+                        efficient way since you only have to specify things once
+                        and then reference them via a tag or it may even be
+                        automatic.
+                        It also reduces bandwidth usage which is important on lower
+                        bandwidth modems or networks such as 56k etc.
+                        It also allows for changing layout and style without touching
+                        the page content at all.
+                    </section>
+                </article>
+            </div>
+        </main>
+        <div class="aside">
         <aside>This is some serious bullshit entry to the side of shit.</aside>
+        </div>
     </div>
 
     <div class="column-left">
@@ -54,7 +105,10 @@
     <div class="column-right">
 
     </div>
+
+
 </div>
 
+<footer>Footer of page By: Daniel Hammerin</footer>
 
 </html>
