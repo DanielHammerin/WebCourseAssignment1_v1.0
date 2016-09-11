@@ -1,0 +1,54 @@
+
+.column-left{ float: left; width: 15%; }
+.column-right{ float: right; width: 15%; }
+.column-center{ display: inline-block; width: 70%; }
+
+body {
+    background-color: lightblue;
+    background-image: url("http://www.planwallpaper.com/static/images/518169-backgrounds.jpg");
+
+}
+div.container {
+    background-color: aliceblue;
+    opacity: 0.8;
+    padding: 1em;
+    margin: 1em;
+}
+/*
+div.container, #paragraph {
+    background-color: bisque;
+    opacity: 0.9;
+    padding: 2em;
+    margin: 2em;
+}
+*/
+header, footer {
+    padding: 1em;
+    color: bisque;
+    background-color: darkgray;
+    clear: left;
+    text-align: center;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: darkcyan;
+    margin-left: 20px;
+    text-align: center;
+}
+
+p {
+    border: 1px solid black;
+
+}
+* {
+    margin:0 auto;
+    padding:0;
+}
+
+
