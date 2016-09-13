@@ -6,8 +6,7 @@
 body {
     background-color: lightblue;
     background-image: url("http://www.planwallpaper.com/static/images/518169-backgrounds.jpg");
-
-
+    position: relative;
 }
 div.container {
     background-color: aliceblue;
