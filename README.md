@@ -1,2 +1,2 @@
-# WebCourseAssignment1_v1.0
-This is the project for the Web Course on LNU 2016
+# dh222gh-examination-1
+Examination 1 for Daniel Hammerin, WP2016
